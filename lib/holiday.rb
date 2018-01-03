@@ -67,6 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   season_str = ""
   holiday_str = ""
+  holiday_final = ""
   holiday_arr = []
   supplies_str = ""
 
@@ -78,9 +79,9 @@ def all_supplies_in_holidays(holiday_hash)
         holiday_arr = holiday_str.split("_")
           holiday_arr.each do |word|
             word.capitalize!
-            holiday_str << word
+            holiday_final << word
             puts "#{season_str}:"
-            puts "  #{word}: #{supplies_str}"
+            puts "  #{holiday_final}: #{supplies_str}"
           end
       end
     end
