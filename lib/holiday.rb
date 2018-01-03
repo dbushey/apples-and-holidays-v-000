@@ -69,7 +69,6 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_str = ""
   holiday_final = ""
   holiday_arr = []
-  holiday_arr_final = []
   supplies_str = ""
 
   holiday_supplies.each do |season, holidays|
