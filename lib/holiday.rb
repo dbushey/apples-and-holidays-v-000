@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
         holiday_arr = holiday_str.split("_")
           holiday_arr.each do |word|
             word.capitalize!
-            puts "#{season_str}: #{word}: #{supplies_str}"
+            puts "#{season_str}: \n #{word}: #{supplies_str}\n"
           end
       end
     end
