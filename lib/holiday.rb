@@ -81,7 +81,7 @@ def all_supplies_in_holidays(holiday_hash)
           holiday_arr_final = holiday_arr.map {|word| word.capitalize!}
           holiday_final = holiday_arr_final.join(" ")
             binding.pry
-            
+
             puts "  #{holiday_final}: #{supplies_str}"
 
       end
